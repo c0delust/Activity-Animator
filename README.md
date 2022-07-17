@@ -8,4 +8,4 @@
 
 ![Animations GIF](https://user-images.githubusercontent.com/83002941/179400992-53771fa3-498c-43c9-80ec-f42a6d960e40.gif)
 
-📌 Reference: https://github.com/AtifSayings/Animatoo
+📌 Credits: https://github.com/AtifSayings/Animatoo
