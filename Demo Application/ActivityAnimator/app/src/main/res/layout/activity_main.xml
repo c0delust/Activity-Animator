@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text="Activity Animator"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="#B60561"/>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp">
+
+        <TableRow>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:text="Fade"
+                android:onClick="fadeAnimation"
+                android:backgroundTint="#404E4D"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:text="Card"
+                android:onClick="cardAnimation"
+                android:backgroundTint="#C3423F"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:text="Diagonal"
+                android:onClick="diagonalAnimation"
+                android:backgroundTint="#F56476"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:text="Shrink"
+                android:onClick="shrinkAnimation"
+                android:backgroundTint="#003554"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:text="Spin"
+                android:onClick="spinAnimation"
+                android:backgroundTint="#7751BC"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:text="Split"
+                android:onClick="splitAnimation"
+                android:backgroundTint="#18A999"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:text="Slide Up"
+                android:onClick="slideUpAnimation"
+                android:backgroundTint="#BC8034"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:text="Slide Down"
+                android:onClick="slideDownAnimation"
+                android:backgroundTint="#813B37"/>
+
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:text="Slide Right"
+                android:onClick="slideRightAnimation"
+                android:backgroundTint="#02554F"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:text="Slide Left"
+                android:onClick="slideLeftAnimation"
+                android:backgroundTint="#1F1300"/>
+
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:text="Swipe Right"
+                android:onClick="swipeRightAnimation"
+                android:backgroundTint="#619A46"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:text="Swipe Left"
+                android:onClick="swipeLeftAnimation"
+                android:backgroundTint="#283044"/>
+
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:text="In &amp; Out"
+                android:onClick="inAndOutAnimation"
+                android:backgroundTint="#390E40"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:text="Wind Mill"
+                android:onClick="windMillAnimation"
+                android:backgroundTint="#9883E5"/>
+        </TableRow>
+
+        <TableRow
+            android:gravity="center">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                android:text="Zoom"
+                android:onClick="zoomAnimation"
+                android:backgroundTint="#BF3821"/>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
